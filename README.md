@@ -3,10 +3,10 @@
 
 ## Usage
 ```bash
-python3 upscale.py "inputDir" "outputDir" "https://waifu2x.udp.jp"
+python3 upscale.py "inputDir" "outputDir" "https://url-to-endpoint"
 ```
 1. `inputDir` is the path to the images you want to upscale
 2. `outputDir` is the path to the folder you want to save the upscaled images
-3. `https://url-to-` is the waifu2x-web endpoint you want to use
+3. `https://url-to-endpoint` is the waifu2x-web endpoint you want to use
 
 You will most likely have to refer to https://github.com/nagadomi/waifu2x and set up your own endpoint, as any public endpoints require you to fill out a captcha.
