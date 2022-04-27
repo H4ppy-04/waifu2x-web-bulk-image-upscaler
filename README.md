@@ -1,6 +1,11 @@
 # waifu2x-web-video-upscaler
  A python script that takes a folder of images as input, and upscales them using a waifu2x-web endpoint
 
+## Requirements:
+1. Python 3.6+
+2. selenium
+3. chromedriver (same version as your chrome browser)
+
 ## Usage
 ```bash
 python3 upscale.py "inputDir" "outputDir" "https://url-to-endpoint"
